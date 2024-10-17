@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Set the Maven version from the Global Tool Configuration in Jenkins
-        maven 'Maven-3.8.5' // Replace with your Maven version name from Jenkins
+        maven 'Maven-3.9.9' // Replace with your Maven version name from Jenkins
     }
     stages {
         stage('Checkout') {
