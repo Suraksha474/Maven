@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the GitHub repository
-                git 'https://github.com/yourusername/your-repository.git'
+                git 'https://github.com/Suraksha474/Maven.git'
             }
         }
         stage('Build') {
